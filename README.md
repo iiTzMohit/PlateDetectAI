@@ -1,11 +1,11 @@
 # PlateDetectAI
 
 ## Overview
-This project focuses on detecting vehicle number plates using a custom-trained YOLOv3 model. The model has been fine-tuned and optimized for accuracy, specifically targeting number plate detection in various image conditions.
+This project focuses on detecting vehicle number plates using a custom-trained YOLOv3 model. The model has been fine-tuned and optimized for high precision, specifically targeting number plate detection in various image conditions.
 
 ## Features
 - **Object Detection**: Uses a YOLOv3 model trained and fine-tuned specifically for number plate detection.
-- **Custom Loss Functions**: Utilizes tailored loss functions for better performance.
+- **Custom Loss Functions**: Utilizes tailored loss functions for higher model precision and accuracy.
 - **Image Preprocessing**: Includes techniques like cropping, resizing, noise addition, blurring, and rotation.
 - **Evaluation Metrics**: Utilizes mAP@[0.50:0.95] and mAP@0.70 for performance evaluation.
 
