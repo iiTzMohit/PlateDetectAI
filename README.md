@@ -12,8 +12,8 @@ This project focuses on detecting vehicle number plates using a custom-trained Y
 
 ## Dataset and Model
 You can access the dataset and the saved model used in this project through the following links:
-- [Dataset](url)
-- [Saved Model](url)
+- [Dataset](https://drive.google.com/drive/folders/1h2_CZXVMQYMJoVjeIvmWJc-Hq-hmagZB?usp=sharing)
+- [Saved Model](https://drive.google.com/drive/folders/1MaCjaG8O5oxSevaBWByieUxDoZ_2PJr-?usp=sharing)
 
 ## Examples
 Detected Number Plates in Images
