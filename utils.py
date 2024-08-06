@@ -296,40 +296,6 @@ def yolo_head(feats, anchors):
         return box_xy, box_wh, box_confidence
 
 
-def freeze_yolov3_layers(model, freeze_until_layer):
-    """
-    Freezes the layers in the YOLOv3 model up to the specified layer.
-
-    Parameters:
-    model (tf.keras.Model): The YOLOv3 model.
-    freeze_until_layer (str or int): The name or index of the layer until which to freeze.
-
-    Returns:
-    tf.keras.Model: The YOLOv3 model with specified layers frozen.
-    """
-    # If freeze_until_layer is an integer, freeze layers by index
-    if isinstance(freeze_until_layer, int):
-        for i, layer in enumerate(model.layers):
-            if i <= freeze_until_layer:
-                layer.trainable = False
-            else:
-                layer.trainable = True
-    # If freeze_until_layer is a string, freeze layers by name
-    elif isinstance(freeze_until_layer, str):
-        freeze = True
-        for layer in model.layers:
-            if freeze:
-                layer.trainable = False
-                if layer.name == freeze_until_layer:
-                    freeze = False
-            else:
-                layer.trainable = True
-    else:
-        raise ValueError("freeze_until_layer must be an integer or string")
-
-    return model
-
-
 def process_outputs(outputs, anchors, confidence_thresh=0.5, iou_thresh=0.5):
     boxes = []
     confidences = []
