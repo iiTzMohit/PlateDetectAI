@@ -24,8 +24,8 @@ Detected Number Plates in Images
 - **Image Augmentation**: Applied techniques like cropping, noise addition, blurring, and rotation to enhance the dataset.
 
 ## Evaluation Metrics
-- **Mean Average Precision (mAP)**: Calculated mAP@[0.5:0.95] and mAP@0.75 to evaluate model performance.
-- **Inference Time**: Benchmarked the model with an average inference time per image.
+- **Mean Average Precision (mAP)**: Calculated **mAP@[0.5:0.95] of 0.65** and **mAP@0.75 of 0.84** to evaluate model performance.
+- **Inference Time**: Benchmarked the model with an average inference time at **t ms/image**.
 
 ## Acknowledgements
 - The YOLOv3 implementation is inspired by the official YOLOv3 paper and various open-source contributions.
