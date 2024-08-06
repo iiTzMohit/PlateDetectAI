@@ -6,6 +6,14 @@ This project focuses on detecting vehicle number plates using a custom-trained Y
 ## Features
 - Object Detection: Detects number plates in images of vehicles.
 - Custom YOLOv3 Model: Fine-tuned and optimized for number plate detection.
-- Image Preprocessing: Includes techniques like cropping, noise addition, blurring, and rotation.
-- Evaluation Metrics: Utilizes mAP@[0.5:0.95], mAP@0.75, and mAP@0.95 for performance evaluation.
+- Image Preprocessing: Includes techniques like cropping, resizing, noise addition, blurring, and rotation.
+- Evaluation Metrics: Utilizes mAP@[0.50:0.95] and mAP@0.70 for performance evaluation.
 - Efficient Inference: Benchmarked inference time per image for performance analysis.
+
+## Dataset and Model
+You can access the dataset and the saved model used in this project through the following links:
+- [Dataset](url)
+- [Saved Model](url)
+
+## Examples
+Detected Number Plates in Images
