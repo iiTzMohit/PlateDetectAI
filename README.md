@@ -18,6 +18,11 @@ You can access the dataset and the saved model used in this project through the 
 ## Examples
 Detected Number Plates in Images
 
+![image](https://github.com/user-attachments/assets/798c6b9d-94d4-4e2d-b694-3b58c79df9b4)
+
+![image](https://github.com/user-attachments/assets/808a2456-a753-4f3c-b1ad-b73024976b6f)
+
+
 ## Model Training Details
 - **Custom Loss Functions**: Incorporated custom loss functions tailored for number plate detection.
 - **Gradual Layer Unfreezing**: Training strategy with gradual unfreezing of layers.
