@@ -19,7 +19,7 @@ Detected Number Plates in Images
 
 ![image](https://github.com/user-attachments/assets/798c6b9d-94d4-4e2d-b694-3b58c79df9b4)
 
-![image](https://github.com/user-attachments/assets/808a2456-a753-4f3c-b1ad-b73024976b6f)
+![image](https://github.com/user-attachments/assets/a071e276-b0a8-44fb-b6d4-bd5923d79cd3)
 
 
 ## Model Training Details
