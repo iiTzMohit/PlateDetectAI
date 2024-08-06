@@ -1,4 +1,4 @@
-# PlateDetectAI
+![image](https://github.com/user-attachments/assets/e0fa64dd-66c8-4b1b-a685-86e27b863bcf)# PlateDetectAI
 
 ## Overview
 This project focuses on detecting vehicle number plates using a custom-trained YOLOv3 model. The model has been fine-tuned and optimized for accuracy and performance, specifically targeting number plate detection in various image conditions.
@@ -31,6 +31,9 @@ Detected Number Plates in Images
 ## Evaluation Metrics
 - **Mean Average Precision (mAP)**: Calculated **mAP@[0.5:0.95] of 0.65** and **mAP@0.75 of 0.84** to evaluate model performance.
 - **Inference Time**: Benchmarked the model with an average inference time at **t ms/image**.
+
+## Run Inference
+To run inference on new images, open the provided Jupyter notebook `detect.ipynb`. This notebook contains the code to perform inference and visualize the results.
 
 ## Acknowledgements
 - The YOLOv3 implementation is inspired by the official YOLOv3 paper and various open-source contributions.
